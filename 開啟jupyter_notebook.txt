@@ -1,0 +1,4 @@
+docker load -i docker_images/jupyter_datascience-notebook_2023-10-20.tgz
+
+docker run -p 38920:8888 jupyter/datascience-notebook:latest
+
